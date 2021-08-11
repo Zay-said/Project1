@@ -82,3 +82,28 @@ h1{
     font-style: #ffffff 200;
     font-size: 30px;
 }
+
+#Img-div{
+    float:left;
+}
+#Currency{
+    height: 400px;
+    float: left;
+    margin: 20px;
+    border: transparent solid 2px;
+    border-radius: 30px;
+    background: #9A5B60;
+    background: no-repeat linear-gradient(#9A5B60 , #180023 );
+}
+
+#tradeBtn{
+    float: right;
+    padding-right: 30px;
+    margin-right: 150px;
+}
+
+#trade{
+    width: 200px;
+    padding: 15px;
+    text-align: left;
+}
