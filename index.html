@@ -43,7 +43,7 @@
             <div class = "Exchange-Div">
                 <p id="RandomText">Infinite Growth </p>
                 <div id= "Img-div"> <img src="/images/place_holder.PNG" width="450"> </div>
-                <div id = "Currency1">
+                <div id = "Currency">
                     <input type="number" class="amount-first" value="1">
                     <select id="currency-first">
                         <option value="ICC" selected>ICC</option>
@@ -52,12 +52,7 @@
                     </select>
                 </div>
     
-                <button class="swap">
-                    <i class="fas fa-exchange-alt"></i>
-                </button>
-    
-    
-                <div class="section-right">
+                <div id = "Currency">
                     <input type="text" class="amount-second" disabled>
                     <select id="currency-second">
                         <option value="ICC" >ICC</option>
@@ -65,11 +60,10 @@
                         <option value="BTC" selected>BTC</option>
                     </select>
                 </div>
-                <div>
-                    <button>Trade</button>
                 </div>
+                <div id="tradeBtn">
+                    <button class="btn-border" id="trade">Trade</button>
                 </div>
-            </div>
         </main>
     </body>
 </html>
