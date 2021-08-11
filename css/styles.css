@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html {
+    background-image: url("../images/bg_cover1.png");
+    background-position-x: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    font-family: 'Saira Semi Condensed', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin-left: 15%;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    text-align: right;
+}
+
+ nav ul li a{
+    text-decoration: none;
+    list-style-type: none;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+nav ul li {
+    margin-right:60px;
+    
+} 
+
+.btn-border{
+    text-decoration: none;
+    list-style-type: none;
+    background-color: #180023;
+    /* background-color: transparent; */
+    color: white;
+    border-radius: 30px;
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    margin-left: 10px;
+    font-style: #ffffff 100;
+    border: white solid 1px;
+
+}
+
+.btn-border:hover {
+background-color:#9A5B60;
+/* margin-bottom: 0px;
+padding: 0px; */
+}
+
+h1{
+    margin-top: -10px;
+    font-size: 60px;
+    font-style: #ffffff 900;
+}
+
+#logo{
+    margin-right:0px;
+    margin-left: -40px;
+}
+
+#subheader{
+    margin-top: -20px;
+    font-size: 30px;
+    word-wrap: break-word;
+}
+
+#Get_started{
+    padding: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+#RandomText{
+    font-style: #ffffff 200;
+    font-size: 30px;
+}
