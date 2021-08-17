@@ -30,7 +30,7 @@
       </div>
     </nav>
       
-    <div class="container">
+    <div class="p-container">
       <h1>Buy and sell Crypto instantly</h1>
       <p id="subheader">We handle everything complicated so that you can <br>spend your time on what matters.</p>
 
@@ -41,29 +41,36 @@
         <main>
             <div class="bg"></div>
             <div class = "Exchange-Div">
-                <p id="RandomText">Infinite Growth </p>
-                <div id= "Img-div"> <img src="/images/arrows.png" width="450"> </div>
-                <div id = "Currency">
-                    <input type="number" class="amount-first" value="1">
-                    <select id="currency-first">
-                        <option value="ICC" selected>ICC</option>
-                        <option value="ETH">ETH</option>
-                        <option value="BTC">BTC</option>
-                    </select>
+                <p class="RandomText">Infinite Growth </p>
+              
+                <div id="box1">
+                  <div class= "Img-div"> <img src="/images/arrows.png" width="400px"> </div>
+                  <div id="box2">
+                    <div class = "Currency">
+                      <input type="number" class="amount" value="1">
+                      <select id="currency-first">
+                          <option value="ICC" selected>ICC</option>
+                          <option value="ETH">ETH</option>
+                          <option value="BTC">BTC</option>
+                      </select>
+                  </div>
+                  <div class="trade-btn">
+                  <button class="btn-border" id="trade">Trade</button>
                 </div>
-    
-                <div id = "Currency">
-                    <input type="text" class="amount-second" disabled>
-                    <select id="currency-second">
-                        <option value="ICC" >ICC</option>
-                        <option value="ETH">ETH</option>
-                        <option value="BTC" selected>BTC</option>
-                    </select>
+      
+                    <div class = "Currency2">
+                      <input type="text" class="amount" disabled>
+                      <select id="currency-second">
+                          <option value="ICC" >ICC</option>
+                          <option value="ETH">ETH</option>
+                          <option value="BTC" selected>BTC</option>
+                      </select>
+                  </div>
+                  </div>
                 </div>
-                </div>
-                <div id="tradeBtn">
-                    <button class="btn-border" id="trade">Trade</button>
-                </div>
+              </div>
+                                  
+
         </main>
     </body>
 </html>
