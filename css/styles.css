@@ -10,10 +10,13 @@ html {
     padding: 0px;
 }
 
-body{
+.p-container{
     margin-left: 15%;
 }
 
+.navbar {
+    margin-left: 15%;
+}
 nav ul{
     display: flex;
     list-style-type: none;
@@ -49,6 +52,7 @@ nav ul li {
 
 }
 
+
 .btn-border:hover {
 background-color:#9A5B60;
 /* margin-bottom: 0px;
@@ -78,32 +82,67 @@ h1{
     padding-left: 30px;
 }
 
-#RandomText{
+.RandomText{
     font-style: #ffffff 200;
     font-size: 30px;
+    margin-left: 15%;
 }
 
-#Img-div{
-    float:left;
+.Img-div{
+    /* float:left; */
+    display: inline-block;
+    padding-left: 30px;
 }
-#Currency{
-    height: 400px;
-    float: left;
+
+.Currency{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
     margin: 20px;
     border: transparent solid 2px;
     border-radius: 30px;
     background: #9A5B60;
     background: no-repeat linear-gradient(#9A5B60 , #180023 );
 }
+.Currency2 {
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    margin: 20px;
+    border: transparent solid 2px;
+    border-radius: 30px;
+    background: #9A5B60;
+    background: no-repeat linear-gradient(#9A5B60 , #180023 );
+}
+#Img-div{
+    margin-right:20px ;
+    display: inline-block;
+}
+.box1{
+   /* float: right; */
+   margin-left: none;
+}
 
-#tradeBtn{
+#box2{
     float: right;
-    padding-right: 30px;
-    margin-right: 150px;
+    vertical-align: top;
+    padding-right: 80px;
+    padding-bottom: 20px;
 }
 
 #trade{
-    width: 200px;
-    padding: 15px;
+    width: 110px;
     text-align: left;
+    padding: 11px;
+}
+
+.trade-btn {
+    display: inline-block; 
+    vertical-align: bottom;
+    margin-top: -20px;
+} 
+
+.amount {
+    margin: 10px;
+    border-radius: 5px;
 }
